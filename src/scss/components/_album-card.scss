@@ -1,0 +1,40 @@
+.album-card {  
+  width: 100%;
+  cursor: pointer;
+  display: inline-block;
+  @include media(small) {
+  	width: 32.2666666667%;
+  }
+
+  &.-small {
+  	@include media(small) {
+      width: 23.8%;
+  	}
+  }
+
+  & + & {
+  	margin-top: 22px;
+  	@include media(small) {
+  	  margin-top: 0;
+      margin-left: 1.6%;
+    }
+  }
+
+  &.active {
+    &::after {
+      content: "";
+      position: fixed;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      z-index: 2;
+    }
+  }
+
+  > .image {
+    display: block;
+    border-radius: .25em .25em 0 0;
+  }
+
+}

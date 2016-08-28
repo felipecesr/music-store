@@ -1,0 +1,1 @@
+var list=document.querySelector(".albums-list");list.addEventListener("click",function(e){document.querySelector(".album-card.active")?document.querySelector(".album-card.active").classList.remove("active"):e.target.parentElement.classList.add("active")});

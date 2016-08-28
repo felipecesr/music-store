@@ -1,0 +1,14 @@
+.header-album {
+    text-align: center;
+    @include media(small) {
+    	text-align: left;
+    	padding-top: 10px;
+    	margin-left: 15px;
+    	display: inline-block;
+    }
+	
+	> .info {
+	  margin-bottom: 22px;
+	}
+
+}  

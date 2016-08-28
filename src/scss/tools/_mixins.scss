@@ -1,0 +1,16 @@
+@mixin media($size) {
+  @if $size == small {
+    @media only screen and (min-width: $small) { @content; }
+  }
+  @else if $size == medium {
+    @media only screen and (min-width: $medium) { @content; }
+  }
+  @else if $size == large {
+    @media only screen and (min-width: $large) { @content; }
+  }
+}
+
+@mixin font-size($size) {
+  font-size: $size;
+  font-size: calculateRem($size);
+}
