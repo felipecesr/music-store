@@ -1,1 +1,1 @@
-var list=document.querySelector(".albums-list");list.addEventListener("click",function(e){document.querySelector(".album-card.active")?document.querySelector(".album-card.active").classList.remove("active"):e.target.parentElement.classList.add("active")});
+"use strict";document.addEventListener("click",function(e){document.querySelector(".active")&&document.querySelector(".active").classList.remove("active"),"image"===e.target.className&&e.target.parentElement.classList.add("active")});

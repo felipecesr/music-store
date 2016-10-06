@@ -1,8 +1,8 @@
-module.exports = function(gulp, plugins) {
+module.exports = function(gulp, config, plugins) {
   return function() {
     gulp.src('src/img/**/*.svg')
     .pipe(plugins.imagemin())
-    .pipe(plugins.svgstore({inlineSvg: true}))
+    .pipe(plugins.svgstore({ inlineSvg: true }))
     .pipe(plugins.cheerio({
       run: function ($, file) {
         $('[fill]').removeAttr('fill');
