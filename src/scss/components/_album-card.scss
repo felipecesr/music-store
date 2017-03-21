@@ -1,21 +1,15 @@
+@import './album-info';
+@import './album-page';
+
 .album-card {  
   width: 100%;
   cursor: pointer;
-  display: inline-block;
-  @include media(small) {
-  	width: 32.2666666667%;
-  }
-
-  &.-small {
-  	@include media(small) {
-      width: 23.8%;
-  	}
-  }
 
   & + & {
-  	margin-top: 22px;
-  	@include media(small) {
-  	  margin-top: 0;
+    margin-top: 22px;
+
+    @include media(small) {
+      margin-top: 0;
       margin-left: 1.6%;
     }
   }

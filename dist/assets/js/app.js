@@ -1,1 +1,1 @@
-"use strict";document.addEventListener("click",function(e){document.querySelector(".active")&&document.querySelector(".active").classList.remove("active"),"image"===e.target.className&&e.target.parentElement.classList.add("active")});
+!function(){"use strict";document.addEventListener("click",function(e){document.querySelector(".active")&&document.querySelector(".active").classList.remove("active"),"image"===e.target.className&&e.target.parentElement.classList.add("active")})}();

@@ -1,0 +1,21 @@
+@import './header-album';
+
+.page-header {
+  border-bottom: 1px solid #323b46;
+  @include media(small) {
+    padding-bottom: 20px;
+  }
+
+  > .image {
+    display: block;
+    padding: 10px;
+    @include media(small) {
+      float: left;
+      width: 150px;
+    }
+  }
+
+  > .header-album {
+    margin-bottom: 22px;
+  }
+}

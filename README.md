@@ -2,9 +2,9 @@ The task is to create a simple, elegant and easy to use online music store.
 
 
 
--- DETAILS --
+##-- DETAILS --
 
-1. The home page will show some albums – like new releases, best sellers – whatever you think fits best for your store. 
+1. The home page will show some albums â€“ like new releases, best sellers â€“ whatever you think fits best for your store. 
 
 2. If the user clicks on a music album, he or she should see the track listing, the price and a button to add the product to the cart.
 
@@ -14,11 +14,11 @@ The task is to create a simple, elegant and easy to use online music store.
 
 
 
--- PLEASE CONSIDER --
+##-- PLEASE CONSIDER --
 
 1. All the data (albums, tracks, price, cart) can come from wherever you wish, including being hard coded on the html. 
 
-   You can use the same album data for the albums if you wish – the focus here is how these functionalities look and 
+   You can use the same album data for the albums if you wish â€“ the focus here is how these functionalities look and 
 
    interact with the user, not the data or how it comes to be.
 

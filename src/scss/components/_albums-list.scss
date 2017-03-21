@@ -1,0 +1,10 @@
+@import './album-card';
+
+.albums-list {
+  width: 100%;
+
+  @include media(small) {
+    display: flex;
+    justify-content: space-between;
+  }
+}
